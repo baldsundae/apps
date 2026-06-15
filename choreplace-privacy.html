@@ -1,85 +1,88 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-  <meta charset="utf-8">
-  <title>Chore Place Privacy Policy</title>
-
-  <style>
-    body {
-      font-family: -apple-system, BlinkMacSystemFont, sans-serif;
-      max-width: 800px;
-      margin: 40px auto;
-      padding: 20px;
-      line-height: 1.7;
-      background-color: #f5f5f7;
-      color: #1d1d1f;
-    }
-  </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Chore Place Privacy Statement</title>
 </head>
-
 <body>
+  <main>
+    <h1>Chore Place Privacy Statement</h1>
 
-<h1>Privacy Policy – Chore Place</h1>
+    <p><strong>Last updated:</strong> June 15, 2026</p>
 
-<p><strong>Effective Date:</strong> June 2026</p>
+    <h2>Overview</h2>
+    <p>
+      Chore Place is a household chore management app. It stores household,
+      profile, and task information locally on the device and syncs eligible
+      data through Apple CloudKit using the app's iCloud container.
+    </p>
 
-<p>
-Chore Place is a household and chore management application designed
-for families and shared households.
-</p>
+    <h2>What Data the App Stores</h2>
+    <p>Chore Place may store:</p>
+    <ul>
+      <li>Household names</li>
+      <li>Family member profile names and roles</li>
+      <li>Task titles, details, due dates, reminders, recurrence settings, and completion state</li>
+      <li>Device-to-profile claim state used to connect a device to a family member</li>
+      <li>Notification preferences stored on-device</li>
+      <li>Optional photo proof images attached to completed chores</li>
+    </ul>
 
-<h2>Information Collection and Use</h2>
+    <h2>How Data Is Stored and Synced</h2>
+    <ul>
+      <li>Local app data is stored on-device using SwiftData.</li>
+      <li>
+        Synced household data is stored in Apple CloudKit for the app's container:
+        <code>iCloud.com.seanobrien.Chore-Place</code>.
+      </li>
+      <li>Chore Place uses CloudKit private and shared databases for syncing and household sharing.</li>
+      <li>Chore Place does not use a separate custom backend server for household, profile, or task data.</li>
+    </ul>
 
-<p>
-Chore Place stores household, chore, and user-generated app content
-using Apple iCloud and CloudKit services associated with the user’s Apple ID.
-</p>
+    <h2>Household Sharing</h2>
+    <ul>
+      <li>Household data is shared only with people who join the same household invite.</li>
+      <li>People outside a household share should not be able to view that household's data inside the app.</li>
+      <li>The app's sharing model depends on Apple CloudKit sharing.</li>
+    </ul>
 
-<p>
-The app does not sell, rent, or share personal information with third parties.
-</p>
+    <h2>Photo Proof</h2>
+    <ul>
+      <li>Photo proof is intended only for images of completed chores.</li>
+      <li>Users should not photograph people, faces, or private documents.</li>
+      <li>
+        Photo proof images are temporary and are deleted after adult review,
+        within 72 hours of completion, or sooner if they are no longer needed.
+      </li>
+    </ul>
 
-<h2>Cloud Synchronization</h2>
+    <h2>Notifications</h2>
+    <p>
+      Chore Place may schedule local notifications on a user's device for
+      reminders, overdue chores, and missed chores, depending on that device's
+      settings and the profile linked to the device.
+    </p>
 
-<p>
-If enabled by the user, data may be synchronized through Apple iCloud services
-to allow shared household functionality across authorized devices and users.
-</p>
+    <h2>No Third-Party Analytics or Custom Chore Backend</h2>
+    <p>
+      As of this statement, Chore Place does not use a separate third-party
+      analytics service or a custom chore-data server to store household task data.
+    </p>
 
-<h2>Third-Party Services</h2>
+    <h2>Important CloudKit Container Note</h2>
+    <p>
+      Although Chore Place does not expose household data to the developer
+      through the normal in-app experience, synced data is stored in the app's
+      Apple CloudKit container. Administrative access to Apple developer tooling
+      is separate from normal user-facing app behavior.
+    </p>
 
-<p>
-Chore Place relies on Apple services including iCloud and CloudKit
-for synchronization and data storage.
-</p>
-
-<h2>Data Security</h2>
-
-<p>
-Data security is managed through Apple’s iCloud infrastructure and security systems.
-</p>
-
-<h2>Children’s Privacy</h2>
-
-<p>
-The app is not directed toward children under 13 without parental supervision.
-</p>
-
-<h2>Changes to This Policy</h2>
-
-<p>
-This privacy policy may be updated periodically.
-</p>
-
-<h2>Contact</h2>
-
-<p>
-For questions regarding this privacy policy, please visit:
-</p>
-
-<p>
-<a href="contact.html">Contact Page</a>
-</p>
-
+    <h2>Contact and Updates</h2>
+    <p>
+      If this privacy behavior changes, this statement should be updated before
+      broader distribution.
+    </p>
+  </main>
 </body>
 </html>
